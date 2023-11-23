@@ -13,6 +13,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
+    "react-native-image-slider-banner": "^1.0.3",
+    "react-responsive-carousel": "^3.2.23",
     "react-social-icons": "^6.6.0"
   },
   "devDependencies": {
