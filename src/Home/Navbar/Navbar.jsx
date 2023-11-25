@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="navbar fixed z-10 opacity-90 bg-gradient-to-r from-[#0a57d1] to-[#9ac3f2] ">
+      <div className="navbar fixed z-10 opacity-90 md:bg-gradient-to-r from-[#0a57d1] to-[#9ac3f2] ">
         <div className="navbar-start">
           <div className=" hidden md:block">
             <a href="/"><img className="ml-32 w-[6.25rem]" src={img} alt="" /></a>
