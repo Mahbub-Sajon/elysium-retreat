@@ -1,6 +1,7 @@
 import './App.css'
 import Banner from './Home/Banner/Banner'
 import Description from './Home/Description/Description'
+import Footer from './Home/Footer/Footer'
 import Map from './Home/Map/Map'
 import Navbar from './Home/Navbar/Navbar'
 import ResortOverviewVideo from './Home/ResortOverviewVideo/ResortOverviewVideo'
@@ -16,6 +17,7 @@ function App() {
      <ResortOverviewVideo/>
      <Services/>
      <Map/>
+     <Footer/>
     </>
   )
 }
