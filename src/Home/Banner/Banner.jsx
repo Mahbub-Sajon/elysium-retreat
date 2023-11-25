@@ -1,21 +1,23 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import img from '../../assets/banner/banner.jpg'
+import img2 from '../../assets/banner/banner2.jpg'
+import img3 from '../../assets/banner/banner3.jpg'
 const Banner = () => {
     return (
-        <div>
-             <Carousel autoPlay={true} showThumbs={false} >
+        <section>
+             <Carousel infiniteLoop={true} autoPlay={true} showThumbs={false} >
                 <div>
                     <img src={img} />
                 </div>
                 <div>
-                    <img src={img} />
+                    <img src={img2} />
                 </div>
                 <div>
-                    <img src={img} />
+                    <img src={img3} />
                 </div>
             </Carousel>
-        </div>
+        </section>
     );
 };
 

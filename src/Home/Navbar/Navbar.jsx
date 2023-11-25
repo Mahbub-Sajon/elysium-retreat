@@ -11,7 +11,7 @@ const Navbar = () => {
   ]
 
   return (
-    <div>
+    <nav>
       <div className="navbar fixed z-10 opacity-90 md:bg-gradient-to-r from-[#0a57d1] to-[#9ac3f2] ">
         <div className="navbar-start">
           <div className=" hidden md:block">
@@ -45,7 +45,7 @@ const Navbar = () => {
             <SocialIcon style={{width:'30px', height:'30px'}} className="mr-4" url="https://www.whatsapp.com/"/>
          </div>
         </div>
-      </div>
+      </nav>
   );
 };
 
